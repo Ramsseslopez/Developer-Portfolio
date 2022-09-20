@@ -105,18 +105,8 @@ footer nav ul li {
 }
 
 
-@media only screen and (min-width: 600px) {
-    * {
-        box-sizing: border-box;
-        margin:0;
-        padding:0;
-    }
-    
-    body {
-        display:block;
-        background-color: rgb(193, 217, 229);
-    }
-    
+@media only screen and (max-width: 600px) {
+   
     .header, footer {
         display:flex;
         padding:10px;
@@ -214,7 +204,24 @@ footer nav ul li {
 }
 
 @media only screen and (max-width: 800px) {
+    #Contact-Me {
+        color:black;
+        Margin-top:8px;
+    }
     
+    
+    footer nav ul li {
+        font-size:30px;
+        display:inline-block;
+        margin-right: 25px;
+        padding:28px;
+    }
+    
+    h2 {
+        font-size:35px;
+        padding:15px;
+        color:grey;
+    }
     .header, footer {
         display:flex;
         padding:10px;
@@ -225,6 +232,7 @@ footer nav ul li {
     .header h1 {
         font-size:60px;
     }
+
     .header nav {
         padding-top:15px;
         margin-right:20px;
@@ -237,18 +245,5 @@ footer nav ul li {
         display:inline-block;
         padding:10px;
     }
-
-#Contact-Me {
-    color:black;
-    Margin-top:8px;
-}
-
-
-footer nav ul li {
-    font-size:30px;
-    display:inline-block;
-    margin-right: 25px;
-    padding:28px;
-}
 
 }
