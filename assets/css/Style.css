@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    display:block;
+    background-color: rgb(193, 217, 229);
+}
+
+.header, footer {
+    display:flex;
+    padding:10px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(219, 217, 217);
+    color:black;
+}
+.header h1 {
+    font-size:60px;
+}
+.header nav {
+    padding-top:15px;
+    margin-right:20px;
+    float:right;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    font-size:30px;
+}
+
+.header nav ul li {
+    display:inline-block;
+    padding:10px;
+}
+
+p {
+    display:flex;
+    font-family:'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.skills{
+    display:block;
+    height:50%;
+    width:170px;
+    margin: 0px auto;
+}
+
+.content {
+    display:block;
+}
+
+.float-center {
+    display:block;
+    height:250px;
+    width: 18%;
+    margin:20px auto;
+    border-radius:500px 500px 500px 500px;
+   
+}
+
+#About-Me, #My-Work {
+   text-align: center;
+   font-size:25px;
+   padding:10px;
+}
+
+
+h2 {
+    font-size:35px;
+    padding:15px;
+    color:grey;
+}
+
+#Horiseon-1 {
+    display:block;
+    margin:auto;
+    border:2px solid black;
+}
+
+#Horiseon-1:hover {
+    opacity: .1;
+}
+
+a:hover {
+    color:white;
+    text-decoration: none;
+}
+
+
+#Contact-Me {
+    color:black;
+    Margin-top:8px;
+}
+
+
+footer nav ul li {
+    font-size:30px;
+    display:inline-block;
+    margin-right: 25px;
+    padding:28px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    * {
+        box-sizing: border-box;
+        margin:0;
+        padding:0;
+    }
+    
+    body {
+        display:block;
+        background-color: rgb(193, 217, 229);
+    }
+    
+    .header, footer {
+        display:flex;
+        padding:10px;
+        font-family:'Times New Roman', Times, serif;
+        background-color: rgb(219, 217, 217);
+        color:black;
+    }
+    .header h1 {
+        font-size:60px;
+    }
+    .header nav {
+        padding-top:15px;
+        margin-right:20px;
+        float:right;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+        font-size:30px;
+    }
+    
+    .header nav ul li {
+        display:inline-block;
+        padding:10px;
+    }
+    
+    p {
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .skills{
+        display:block;
+        height:50%;
+        width:170px;
+        margin: 0px auto;
+    }
+    
+    .content {
+        display:block;
+    }
+    
+    .float-center {
+        display:block;
+        height:250px;
+        width: 18%;
+        margin:20px auto;
+        border-radius:500px 500px 500px 500px;
+       
+    }
+    
+    #About-Me, #My-Work {
+       text-align: center;
+       font-size:25px;
+       padding:10px;
+    }
+    
+    
+    h2 {
+        font-size:35px;
+        padding:15px;
+        color:grey;
+    }
+    
+    #Horiseon-1 {
+        display:block;
+        margin:auto;
+        border:2px solid black;
+    }
+    
+    #Horiseon-1:hover {
+        opacity: .1;
+    }
+    
+    a:hover {
+        color:white;
+        text-decoration: none;
+    }
+    
+    
+    #Contact-Me {
+        color:black;
+        Margin-top:8px;
+    }
+    
+    
+    footer nav ul li {
+        font-size:30px;
+        display:inline-block;
+        margin-right: 25px;
+        padding:28px;
+    }
+    
+}
+
+@media only screen and (max-width: 800px) {
+    
+    .header, footer {
+        display:flex;
+        padding:10px;
+        font-family:'Times New Roman', Times, serif;
+        background-color: rgb(219, 217, 217);
+        color:black;
+    }
+    .header h1 {
+        font-size:60px;
+    }
+    .header nav {
+        padding-top:15px;
+        margin-right:20px;
+        float:right;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+        font-size:30px;
+    }
+    
+    .header nav ul li {
+        display:inline-block;
+        padding:10px;
+    }
+
+#Contact-Me {
+    color:black;
+    Margin-top:8px;
+}
+
+
+footer nav ul li {
+    font-size:30px;
+    display:inline-block;
+    margin-right: 25px;
+    padding:28px;
+}
+
+}
