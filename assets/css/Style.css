@@ -9,7 +9,7 @@ body {
     background-color: rgb(193, 217, 229);
     width:100%;
 }
-
+/* header styling begins here */
 .header, footer {
     display:flex;
     padding:10px;
@@ -41,22 +41,22 @@ p {
 }
 
 a {
-    text-decoration: underline;
+    text-decoration: underline;  /*Giving underline effect to all text wrapped in anchor tag */
     color: black;
 }
 
-.skills{
+.skills{          /*Properties and their values to shape and position the image of css/html correctly */
     display:block;
     height:50%;
     width:170px;
     margin: 0px auto;
 }
-
+/* Main HTML styling begins here */
 .content {
     display:block;
 }
 
-.float-center {
+.float-center {    /*properties and their value display a picture of me, Giving this picture a border and re-shaping this to a round image */
     display:block;
     height:250px;
     width: 18%;
@@ -93,7 +93,7 @@ a:hover {
     text-decoration: none;
 }
 
-
+/* Footer Styling begins here*/
 #Contact-Me {
     color:black;
     Margin-top:8px;
@@ -108,7 +108,7 @@ footer nav ul li {
     text-decoration: underline;
 }
 
-
+/* @media screen used here to make the page responsive on devices smaller than 600px's */
 
 @media only screen and (max-width:600px) {
     .header, footer {
@@ -150,7 +150,7 @@ footer nav ul li {
     }
     
     
-    .skills{
+    .skills {
         padding:5px;
         height:80px;
         text-align: center;
@@ -161,7 +161,7 @@ footer nav ul li {
     }
     
     .float-center {
-        width:60%;
+        width:60%
     }
     
     #About-Me, #My-Work {
@@ -190,6 +190,55 @@ footer nav ul li {
         flex-direction: column;
         align-items: center;
         padding:5px;
+        font-size:15px;
+    }
+}
+
+/*@media screen used to make page responsive to larger devices */
+@media only screen and (max-width:1025px) {
+    
+    .header, footer {
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding:0px;
+    }
+
+    .header h1 {
+        padding:8px;
+        font-size:25px;
+        text-align: center;
+        display:block;
+    }
+    .header nav {
+        display:flex;
+       
+    }
+    
+    .header nav ul li {
+       display:flex;
+       padding:8px;
+       justify-content:center;
+    }
+
+      #Contact-Me {
+        display:inline-block;
+        font-size:30px;
+
+    }
+    
+    
+    footer nav ul li {
+       width:100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding:5px;
+        font-size:15px;
+    }
+
+    a {
         font-size:15px;
     }
 }
