@@ -7,6 +7,7 @@
 body {
     display:block;
     background-color: rgb(193, 217, 229);
+    width:100%;
 }
 
 .header, footer {
@@ -18,7 +19,9 @@ body {
 }
 .header h1 {
     font-size:60px;
+    background-color: rgba(251, 251, 251, 0.931);
 }
+
 .header nav {
     padding-top:15px;
     margin-right:20px;
@@ -38,7 +41,7 @@ p {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
 }
 
@@ -102,202 +105,90 @@ footer nav ul li {
     display:inline-block;
     margin-right: 25px;
     padding:28px;
+    text-decoration: underline;
 }
 
 
-@media only screen and (max-width: 600px) {
-   
+@media only screen and (max-width:600px) {
     .header, footer {
+        width:100%;
         display:flex;
-        padding:10px;
-        font-family:'Times New Roman', Times, serif;
-        background-color: rgb(219, 217, 217);
-        color:black;
+        flex-direction: column;
+        align-items: center;
+        padding:0px;
     }
     .header h1 {
-        font-size:60px;
+        padding:8px;
+        font-size:20px;
+        text-align: center;
+        display:block;
     }
     .header nav {
-        padding-top:15px;
-        margin-right:20px;
-        float:right;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
-        font-size:30px;
-    }
-    
-    .header nav ul li {
-        display:inline-block;
-        padding:10px;
-    }
-    
-    p {
-        font-family:'Times New Roman', Times, serif;
-    }
-    
-    a {
-        text-decoration: none;
-        color: black;
-    }
-    
-    .skills{
-        display:block;
-        height:50%;
-        width:170px;
-        margin: 0px auto;
-    }
-    
-    .content {
-        display:block;
-    }
-    
-    .float-center {
-        display:block;
-        height:250px;
-        width: 18%;
-        margin:20px auto;
-        border-radius:500px 500px 500px 500px;
+        display:flex;
        
     }
     
-    #About-Me, #My-Work {
-       text-align: center;
-       font-size:25px;
-       padding:10px;
+    .header nav ul li {
+       display:flex;
+       padding:8px;
+       justify-content:center;
     }
     
-    
+    a {
+        font-size:15px;
+    }
+
     h2 {
-        font-size:35px;
-        padding:15px;
+        font-size:25px;
+        padding:0px;
         color:grey;
     }
+    p {
+        font-size:18px;
+        text-align: center;
+    }
     
+    
+    .skills{
+        padding:5px;
+        height:80px;
+        text-align: center;
+    }
+    
+    .content {
+        width:100%;
+    }
+    
+    .float-center {
+        width:60%;
+    }
+    
+    #About-Me, #My-Work {
+        text-align: center;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
     #Horiseon-1 {
-        display:block;
-        margin:auto;
-        border:2px solid black;
+        width:100%;
+        align-items: center;
     }
-    
-    #Horiseon-1:hover {
-        opacity: .1;
-    }
-    
-    a:hover {
-        color:white;
-        text-decoration: none;
-    }
-    
-    
+
     #Contact-Me {
-        color:black;
-        Margin-top:8px;
+        display:inline-block;
+        font-size:30px;
+
     }
     
     
     footer nav ul li {
-        font-size:30px;
-        display:inline-block;
-        margin-right: 25px;
-        padding:28px;
-    }
-    
-}
-
-@media only screen and (max-width: 800px) {
-    .header, footer {
+       width:100%;
         display:flex;
-        padding:10px;
-        font-family:'Times New Roman', Times, serif;
-        background-color: rgb(219, 217, 217);
-        color:black;
+        flex-direction: column;
+        align-items: center;
+        padding:5px;
+        font-size:15px;
     }
-    .header h1 {
-        font-size:60px;
-    }
-    .header nav {
-        padding-top:15px;
-        margin-right:20px;
-        float:right;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
-        font-size:30px;
-    }
-    
-    .header nav ul li {
-        display:inline-block;
-        padding:10px;
-    }
-    
-    p {
-        display:flex;
-        font-family:'Times New Roman', Times, serif;
-    }
-    
-    a {
-        text-decoration: none;
-        color: black;
-    }
-    
-    .skills{
-        display:block;
-        height:50%;
-        width:170px;
-        margin: 0px auto;
-    }
-    
-    .content {
-        display:block;
-    }
-    
-    .float-center {
-        display:block;
-        height:250px;
-        width: 18%;
-        margin:20px auto;
-        border-radius:500px 500px 500px 500px;
-       
-    }
-    
-    #About-Me, #My-Work {
-       text-align: center;
-       font-size:25px;
-       padding:10px;
-    }
-    
-    
-    h2 {
-        font-size:35px;
-        padding:15px;
-        color:grey;
-    }
-    
-    #Horiseon-1 {
-        display:block;
-        margin:auto;
-        border:2px solid black;
-    }
-    
-    #Horiseon-1:hover {
-        opacity: .1;
-    }
-    
-    a:hover {
-        color:white;
-        text-decoration: none;
-    }
-    
-    
-    #Contact-Me {
-        color:black;
-        Margin-top:8px;
-    }
-    
-    
-    footer nav ul li {
-        font-size:30px;
-        display:inline-block;
-        margin-right: 25px;
-        padding:28px;
-    }
-    
-
 }
